@@ -1,0 +1,115 @@
+{
+  "usuarios": [
+    {
+      "nome": "Elcio Guartieri",
+      "email": "guartierielcio1@gmail.com",
+      "senha": "123456",
+      "foto": "https://i.ibb.co/BV9wstwD/2167138-C-225-F-4-D55-9259-1-E6121-D22-FAC.png",
+      "sexo": "Masculino",
+      "dtnascimento": "1965-05-31",
+      "cpf": "13991045869",
+      "cep": "12916-360",
+      "rua": "Rua Teixeira",
+      "bairro": "Taboão",
+      "cidade": "Bragança Paulista",
+      "uf": "SP",
+      "numero": "483",
+      "complemento": "apto 201",
+      "id": 1
+    },
+    {
+      "nome": "Cladette de A. Guartieri",
+      "email": "bibidede2@hotmail.com",
+      "senha": "123456",
+      "sexo": "Feminino",
+      "foto": "https://i.ibb.co/DPFYJLn5/85779-F41-6-DEE-4936-BF10-FC068-E9627-F1.png",
+      "dtnascimento": "1937-10-28",
+      "cpf": "275.757.248-26",
+      "cep": "12916-360",
+      "rua": "Rua Teixeira",
+      "bairro": "Taboão",
+      "cidade": "Bragança Paulista",
+      "uf": "SP",
+      "numero": "483",
+      "complemento": "apto 201",
+      "id": 2
+    },
+    {
+      "nome": "Simone Naressi",
+      "email": "catsimonen@hotmail.com",
+      "senha": "123456",
+      "foto": "https://i.ibb.co/x85CFV1S/IMG-5808.jpg",
+      "sexo": "Feminino",
+      "dtnascimento": "1974-08-26",
+      "cpf": "",
+      "cep": "02273-050",
+      "rua": "Rua Diomar de Melo Torquato",
+      "bairro": "Guapira",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "numero": "8",
+      "complemento": "Casa",
+      "id": 3
+    }
+  ],
+  "publicacoes": [
+    {
+      "nome": "Elcio Guartieri",
+      "foto": "https://i.ibb.co/BV9wstwD/2167138-C-225-F-4-D55-9259-1-E6121-D22-FAC.png",
+      "dtcadastro": "2025-09-14 18:30:09",
+      "imagem": "https://thumbs.dreamstime.com/b/programador-do-homem-novo-que-trabalha-no-computador-com-c%C3%B3digo-na-tela-conceito-de-programa%C3%A7%C3%A3o-vetor-estudante-102846347.jpg",
+      "url": "https://www.alura.com.br/artigos/javascript?srsltid=AfmBOopXXrD7SKrNw-Zjjgpq8lPwOcbmcXzpXIwtCSOUiG9CaFpvwamV",
+      "texto": "Ótimo artigo sobre JavaScript que a Alura publicou",
+      "curtidas": true,
+      "id": 1
+    },
+    {
+      "nome": "Elcio Guartieri",
+      "foto": "https://i.ibb.co/BV9wstwD/2167138-C-225-F-4-D55-9259-1-E6121-D22-FAC.png",
+      "dtcadastro": "2025-09-15 10:35:28",
+      "imagem": "https://www.semcodar.com.br/wp-content/uploads/2024/02/bubble-flutterflow-weweb-semcodar-melhor-no-code.jpg",
+      "url": "https://www.semcodar.com.br/bubble-x-flutterflow-x-weweb-qual-a-melhor-no-code-em-2024/",
+      "texto": "Hoje estou iniciando meu curso de Booble na comunidade Sem Codar, está sendo Show de bola!!",
+      "curtidas": true,
+      "id": 2
+    }
+  ],
+  "amigos": [
+    {
+      "nome": "Cladette de A. Guartieri",
+      "email": "bibidede2@hotmail.com",
+      "foto": "https://e7.pngegg.com/pngimages/693/530/png-clipart-cartoon-female-cartoon-professional-women-cartoon-character-comics.png",
+      "id": 1
+    },
+    {
+      "nome": "Simone Naressi",
+      "email": "catsimonen@hotmail.com",
+      "foto": "https://i.pinimg.com/474x/b8/9c/41/b89c41fb4525596e8f48810096796ff0.jpg",
+      "id": 2
+    },
+    {
+      "nome": "Milene P. Guartieri",
+      "email": "milenepilar@homail.com",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpcegX6zBtHhyO6j2369uGwNE8tFZuy4eM8g&s",
+      "id": 3
+    },
+    {
+      "nome": "Enzo Mussini",
+      "email": "enzomussini@gmail.com",
+      "foto": "https://img.myloview.com.br/quadros/o-rosto-de-um-homem-careca-de-oculos-com-barba-e-bigode-a-cara-de-um-unico-icone-do-homem-na-web-lisa-da-ilustracao-do-estoque-do-simbolo-do-vetor-do-estilo-700-114917278.jpg",
+      "id": 4
+    },
+    {
+      "nome": "Leonardo Guartieri de Olveira",
+      "email": "leoguartieri@hotmail.com",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_cfhcX2fIWoC0I0B7LzXBc3SDtU3p-Z4Qig&s",
+      "id": 5
+    },
+    {
+      "nome": "Sany Siqueira",
+      "email": "sanysiqueira@hotmail.com",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySVaz5R8qjar8HkeuYIgqwrLVGMcYaq5Hw&s",
+      "id": 6
+    }
+  ]
+}

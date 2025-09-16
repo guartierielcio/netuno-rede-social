@@ -1,0 +1,418 @@
+/* ===========================
+  VARIÁVEIS CSS
+=========================== */
+
+:root {
+  --font-main: "Lexend Deca", sans-serif;
+  --font-alt: "Inter", sans-serif;
+
+  --color-primary: #e8ecff;
+  --color-black: #101828;
+
+  --font-sm: 14px;
+  --font-md: 19px;
+  --font-lg: 24px;
+  --font-xl: 31px;
+}
+
+/* RESET DE PÁGINA */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background: #fff;
+}
+
+#mainBoxDashboard {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MENU ESQUERDA */
+
+#boxLeft {
+  width: 225px;
+  padding: 32px;
+  border-right: 1px solid #d0d5dd;
+
+  display: flex;
+  justify-content: center;
+}
+
+#boxMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  position: fixed;
+}
+
+#img-logo-menu {
+  display: block;
+  margin: 0 auto;
+  width: 134px;
+  height: 21.4px;
+}
+
+.menu {
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.menu a img {
+  margin-right: 16px;
+}
+
+#listaMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.menu:hover {
+  background-color: #8cc7ff50;
+}
+
+.active {
+  border: 2px solid #d0d5dd;
+  background-color: #8cc7ff50;
+}
+
+.menu a {
+  display: flex;
+  align-items: center;
+
+  color: #475467;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+
+  text-decoration: none;
+}
+
+/* PAGINA CENTRO */
+
+#boxCentral {
+  width: 810px;
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 32px;
+}
+
+#headerApp {
+  width: 707px;
+  height: 184px;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #66a8ff 0%, #8cc7ff 100%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#subHeaderApp {
+  width: 707px;
+  height: 130px;
+  margin-top: -30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#boxSubHeaderUsuario {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#imagemPerfil {
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+
+#nomePerfil {
+  color: #101828;
+  font-family: var(--font-main);
+  font-size: 31px;
+  font-weight: 600;
+}
+
+#emailPerfil {
+  color: #667085;
+  font-family: var(--font-alt);
+}
+
+#btnEditarPerfil {
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background-color: #fff;
+  color: #000;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+/*  BOX PUBLICAR */
+
+#BoxPublicar {
+  width: 707px;
+  min-height: 130px;
+  border-radius: 20px;
+  border: 2px solid #d0d5dd;
+  margin: 32px auto;
+  padding: 16px;
+}
+
+/* Inputs publicar */
+#BoxInputsPublicar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#BoxInputsPublicar input {
+  display: flex;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+
+/* Botão publicar */
+#boxBtnPublicar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 0;
+}
+
+#btnPublicar {
+  display: flex;
+  width: 106px;
+  padding: 8px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background: #101828;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+/* Mensagem sucesso/erro */
+#msgPublicacao {
+   font-weight: 600;
+  margin-top: 8px;
+  font-size: 14px;
+  display: none;
+}
+
+/*    CORPO APP / PUBLICAÇÕES */
+
+#corpoApp {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#corpoApp div p {
+  color: #101828;
+  font-family: "Lexend Deca";
+  font-size: 25px;
+  font-weight: 600;
+}
+
+div#publicacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+div.publicacao {
+  width: 675px;
+  min-height: 529px;
+  border: 2px solid #d0d5dd;
+  border-radius: 20px;
+}
+
+.pubHeader {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.imgPerfilPub {
+  display: block;
+  margin: 0 auto;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+h3.nomePerfilPub {
+  color: #101828;
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h3.dataPerfilPub {
+  color: #667085;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.boxTextoPub {
+  padding: 8px;
+}
+
+h3.textoPub {
+  color: #101828;
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.imgPub {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.pubFooter {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* PAGINA DIREITA */
+
+#boxRight {
+  width: 303px;
+  min-height: 100vh;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#boxRight p#friends {
+  color: #101828;
+  font-family: "Lexend Deca";
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#amigos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid #d0d5dd;
+  padding: 0 24px;
+}
+
+.amigo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #d0d5dd;
+}
+
+.nomeAmigo {
+  color: #101828;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.emailAmigo {
+  color: #667085;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.boxImagemAmigo img {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#aniversariante {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 20px;
+  border: 2px solid #d0d5dd;
+}
+
+#aniversariante h1 {
+  color: #101828;
+  font-family: "Lexend Deca";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#aniversariante p {
+  color: #475467;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#aniversariante span {
+  font-weight: 700;
+}
+
+#aniversariante a {
+  text-align: left;
+  color: #101828;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#boxButton {
+  padding: 16px;
+}
+
+#boxAniver {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

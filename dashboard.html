@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lexend+Deca:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/dashboard.css" />
+  </head>
+  <body>
+    <div id="mainBoxDashboard">
+      <!-- MENU -->
+      <div id="boxLeft">
+        <div id="boxMenu">
+          <img
+            id="img-logo-menu"
+            src="./public/images/logo-netuno.png"
+            alt="Logo"
+          />
+          <div id="listaMenu">
+            <div class="menu active">
+              <a href="dashboard.html"
+                ><img src="./public/images/inicio.png" alt="" /> Início</a
+              >
+            </div>
+            <div class="menu">
+              <a href="amigos.html"
+                ><img src="./public/images/amigos.png" alt="" /> Amigos</a
+              >
+            </div>
+            <div class="menu">
+              <a href="presentes.html"
+                ><img src="./public/images/presentes.png" alt="" /> Presentes</a
+              >
+            </div>
+            <hr />
+            <div class="menu">
+              <a href="configuracoes.html"
+                ><img src="./public/images/configuracoes.png" alt="" />
+                Configurações</a
+              >
+            </div>
+            <div class="menu" id="btnSair">
+              <a href="#"><img src="./public/images/sair.png" alt="" /> Sair</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CENTRAL -->
+      <div id="boxCentral">
+        <div id="headerApp">
+          <img src="./public/images/logo-netuno2.png" alt="" />
+        </div>
+        <div id="subHeaderApp">
+          <div id="boxSubHeaderUsuario">
+            <div>
+              <img src="#" alt="" id="imagemPerfil" />
+            </div>
+            <div>
+              <p id="nomePerfil">Nome do usuário</p>
+              <p id="emailPerfil">E-mail do usuário</p>
+            </div>
+          </div>
+          <div>
+            <button id="btnEditarPerfil">Editar perfil</button>
+          </div>
+        </div>
+        <div id="BoxPublicar">
+          <div id="BoxInputsPublicar">
+            <input type="text" id="ImgPub" placeholder="url da imagem" />
+            <input type="text" id="urlPub" placeholder="url da publicação" />
+            <input type="text" id="txtPub" placeholder="texto da publicação" />
+          </div>
+          <div id="boxBtnPublicar">
+            <button id="btnPublicar">Publicar</button>
+            <!-- Mensagem de sucesso ou erro aparecerá aqui -->
+            <p id="msgPublicacao"></p>
+          </div>
+
+        </div>
+
+        <div id="corpoApp"><div>
+           <p>Atividades</p>
+        </div>
+          <div id="publicacoes"></div>
+        </div>
+      </div>
+      <!-- AMIGOS / ANIVERSÁRIOS -->
+      <div id="boxRight">
+        <p id="friends">Amigos</p>
+        <div id="amigos"></div>
+        <div id="aniversariante">
+          <div id="boxAniver">
+            <img src="./public/images/aniversariante.png" alt="" />
+            <h1>Aniversariante do mês</h1>
+            <p>
+              <span>Simone Naressi</span> está fazendo aniversário hoje, envie um
+              presente para ela!
+            </p>
+          </div>
+          <hr />
+          <div id="boxButton">
+            <a href="#">Enviar presente</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/user.js"></script>
+  </body>
+</html>
