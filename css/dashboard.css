@@ -1,7 +1,6 @@
 /* ===========================
   VARIÁVEIS CSS
 =========================== */
-
 :root {
   --font-main: "Lexend Deca", sans-serif;
   --font-alt: "Inter", sans-serif;
@@ -15,7 +14,9 @@
   --font-xl: 31px;
 }
 
-/* RESET DE PÁGINA */
+/* ===========================
+  RESET DE PÁGINA
+=========================== */
 * {
   margin: 0;
   padding: 0;
@@ -31,13 +32,13 @@ body {
   justify-content: space-between;
 }
 
-/* MENU ESQUERDA */
-
+/* ===========================
+  MENU ESQUERDA
+=========================== */
 #boxLeft {
   width: 225px;
   padding: 32px;
   border-right: 1px solid #d0d5dd;
-
   display: flex;
   justify-content: center;
 }
@@ -46,7 +47,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 32px;
-
   position: fixed;
 }
 
@@ -57,6 +57,12 @@ body {
   height: 21.4px;
 }
 
+#listaMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .menu {
   padding: 8px 16px;
   cursor: pointer;
@@ -64,14 +70,19 @@ body {
   transition: 0.5s;
 }
 
-.menu a img {
-  margin-right: 16px;
+.menu a {
+  display: flex;
+  align-items: center;
+  color: #475467;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration: none;
 }
 
-#listaMenu {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+.menu a img {
+  margin-right: 16px;
 }
 
 .menu:hover {
@@ -83,37 +94,24 @@ body {
   background-color: #8cc7ff50;
 }
 
-.menu a {
-  display: flex;
-  align-items: center;
-
-  color: #475467;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
-
-  text-decoration: none;
-}
-
-/* PAGINA CENTRO */
-
+/* ===========================
+  CENTRO - BOX CENTRAL
+=========================== */
 #boxCentral {
-  width: 810px;
+  width: 707px;
   min-height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding: 32px;
 }
 
+/* HEADER APP */
 #headerApp {
   width: 707px;
   height: 184px;
   border-radius: 22px;
   background: linear-gradient(180deg, #66a8ff 0%, #8cc7ff 100%);
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,12 +121,12 @@ body {
   width: 707px;
   height: 130px;
   margin-top: -30px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+/* SUBHEADER USUÁRIO */
 #boxSubHeaderUsuario {
   display: flex;
   align-items: center;
@@ -163,8 +161,7 @@ body {
   cursor: pointer;
 }
 
-/*  BOX PUBLICAR */
-
+/* BOX PUBLICAR */
 #BoxPublicar {
   width: 707px;
   min-height: 130px;
@@ -174,7 +171,6 @@ body {
   padding: 16px;
 }
 
-/* Inputs publicar */
 #BoxInputsPublicar {
   display: flex;
   flex-direction: column;
@@ -187,7 +183,6 @@ body {
   align-items: center;
   gap: 8px;
   align-self: stretch;
-
   border-radius: 8px;
   border: 1px solid #d0d5dd;
   background: #fff;
@@ -208,30 +203,26 @@ body {
   justify-content: center;
   align-items: center;
   gap: 8px;
-
   border-radius: 8px;
   border: 1px solid #d0d5dd;
   background: #101828;
   box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
-
   color: #fff;
   font-family: Inter;
   font-size: 12px;
   font-weight: 600;
-
   cursor: pointer;
 }
 
 /* Mensagem sucesso/erro */
 #msgPublicacao {
-   font-weight: 600;
+  font-weight: 600;
   margin-top: 8px;
   font-size: 14px;
   display: none;
 }
 
-/*    CORPO APP / PUBLICAÇÕES */
-
+/* PUBLICAÇÕES */
 #corpoApp {
   display: flex;
   flex-direction: column;
@@ -311,13 +302,13 @@ h3.textoPub {
   cursor: pointer;
 }
 
-/* PAGINA DIREITA */
-
+/* ===========================
+  DIREITA - BOX RIGHT
+=========================== */
 #boxRight {
   width: 303px;
   min-height: 100vh;
   padding: 32px;
-
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -370,6 +361,7 @@ h3.textoPub {
   border-radius: 50%;
 }
 
+/* ANIVERSARIANTE */
 #aniversariante {
   display: flex;
   flex-direction: column;

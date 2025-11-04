@@ -68,7 +68,7 @@
       "foto": "https://i.ibb.co/BV9wstwD/2167138-C-225-F-4-D55-9259-1-E6121-D22-FAC.png",
       "dtcadastro": "2025-09-15 10:35:28",
       "imagem": "https://www.semcodar.com.br/wp-content/uploads/2024/02/bubble-flutterflow-weweb-semcodar-melhor-no-code.jpg",
-      "url": "https://www.semcodar.com.br/bubble-x-flutterflow-x-weweb-qual-a-melhor-no-code-em-2024/",
+      "url": "https://www.semcodar.com.br/bubble-x-flutterflow-x-weweb-semcodar-melhor-no-code-em-2024/",
       "texto": "Hoje estou iniciando meu curso de Booble na comunidade Sem Codar, está sendo Show de bola!!",
       "curtidas": true,
       "id": 2
@@ -96,7 +96,7 @@
     {
       "nome": "Enzo Mussini",
       "email": "enzomussini@gmail.com",
-      "foto": "https://img.myloview.com.br/quadros/o-rosto-de-um-homem-careca-de-oculos-com-barba-e-bigode-a-cara-de-um-unico-icone-do-homem-na-web-lisa-da-ilustracao-do-estoque-do-simbolo-do-vetor-do-estilo-700-114917278.jpg",
+      "foto": "https://cdn.vectorstock.com/i/500p/06/15/face-of-a-bald-man-with-glasses-beard-vector-16870615.jpg",
       "id": 4
     },
     {
@@ -110,6 +110,64 @@
       "email": "sanysiqueira@hotmail.com",
       "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySVaz5R8qjar8HkeuYIgqwrLVGMcYaq5Hw&s",
       "id": 6
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "iPhone 16",
+      "descricao": "",
+      "valor": 2200,
+      "status": true,
+      "foto": "https://macmagazine.com.br/wp-content/uploads/2024/09/Apple-iPhone-16-Pro-finish-lineup-240909-1260x840.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "iPhone 7 Pro Max",
+      "descricao": "",
+      "valor": 2800,
+      "status": true,
+      "foto": "https://images7.kabum.com.br/produtos/fotos/925357/iphone-17-pro-max-apple-256gb-48mp-tela-6-9-super-retina-xdr-azul-intenso_1757698084_gg.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "iPad",
+      "descricao": "",
+      "valor": 1720,
+      "status": true,
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/4/4a/IPad_mockup.png"
+    },
+    {
+      "id": 4,
+      "nome": "Apple Watch",
+      "descricao": "",
+      "valor": 2100,
+      "status": true,
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Apple_Watch_mockup.png"
+    },
+    {
+      "id": 5,
+      "nome": "AirPods",
+      "descricao": "",
+      "valor": 1150,
+      "status": true,
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/8/82/AirPods_mockup.png"
+    },
+    {
+      "id": 6,
+      "nome": "MacBook 14\"",
+      "descricao": "",
+      "valor": 3500,
+      "status": true,
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/c/c7/MacBook_14inch_mockup.png"
+    },
+    {
+      "id": 7,
+      "nome": "MacBook",
+      "descricao": "",
+      "valor": 4000,
+      "status": true,
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/f/fd/MacBook_mockup.png"
     }
   ]
 }
