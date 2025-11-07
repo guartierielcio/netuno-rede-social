@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atualização de Cadastro</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lexend+Deca:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/atualizacao.css" />
+  </head>
+  <body>
+    <div id="mainBoxDashboard">
+      <!-- ============ MENU ESQUERDO ============ -->
+      <div id="boxLeft">
+        <div id="boxMenu">
+          <img
+            id="img-logo-menu"
+            src="./public/images/logo-netuno.png"
+            alt="Logo"
+          />
+          <div id="listaMenu">
+            <div class="menu">
+              <a href="dashboard.html"
+                ><img src="./public/images/inicio.png" alt="" /> Início</a
+              >
+            </div>
+            <div class="menu">
+              <a href="amigos.html"
+                ><img src="./public/images/amigos.png" alt="" /> Amigos</a
+              >
+            </div>
+            <div class="menu">
+              <a href="presentes.html"
+                ><img src="./public/images/presente.png" alt="" /> Presentes</a
+              >
+            </div>
+            <hr />
+            <div class="menu active">
+              <a href="atualizacao.html"
+                ><img src="./public/images/configuração.png" alt="" />
+                Atualização</a
+              >
+            </div>
+            <div class="menu" id="btnSair">
+              <a href="index.html"
+                ><img src="./public/images/sair.png" alt="" /> Sair</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============ CENTRAL ============ -->
+      <div id="boxCentral">
+        <div id="headerApp">
+          <img src="./public/images/logo-netuno2.png" alt="" />
+        </div>
+
+        <div id="subHeaderApp">
+          <div id="boxSubHeaderUsuario">
+            <div>
+              <img
+                src="#"
+                alt="Foto do usuário"
+                id="imagemPerfil"
+              />
+            </div>
+            <div>
+              <p id="nomePerfil">Nome do usuário</p>
+              <p id="emailPerfil">E-mail do usuário</p>
+            </div>
+          </div>
+          <div>
+            <button id="btnVoltarDashboard">Voltar</button>
+          </div>
+        </div>
+
+        <!-- ============ FORMULÁRIO DE ATUALIZAÇÃO ============ -->
+        <div id="BoxAtualizacao">
+          <h2>Atualizar informações</h2>
+
+          <form id="formAtualizacao">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome completo" />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" />
+
+            <label for="dtnascimento">Data de nascimento:</label>
+            <input type="date" id="dtnascimento" />
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" placeholder="Digite seu CEP" />
+
+            <label for="rua">Rua:</label>
+            <input type="text" id="rua" placeholder="Digite o nome da rua" />
+
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" placeholder="Digite o número" />
+
+            <label for="complemento">Complemento:</label>
+            <input
+              type="text"
+              id="complemento"
+              placeholder="Ex: Apto 101, Bloco B"
+            />
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" placeholder="Digite o bairro" />
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" placeholder="Digite a cidade" />
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" placeholder="Digite o estado" />
+
+            <div id="boxBtnsAtualizacao">
+              <button type="submit" id="btnSalvar">Salvar</button>
+              <button type="button" id="btnCancelar">Cancelar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- ============ MENU DIREITO (AMIGOS / ANIVERSÁRIO) ============ -->
+      <div id="boxRight">
+        <p id="friends">Amigos</p>
+        <div id="amigos"></div>
+
+        <div id="aniversariante">
+          <div id="boxAniver">
+            <img src="./public/images/aniversariante.png" alt="" />
+            <h1>Aniversariante do mês</h1>
+            <p>
+              <span>Simone Naressi</span> está fazendo aniversário hoje, envie
+              um presente para ela!
+            </p>
+          </div>
+          <hr />
+          <div id="boxButton">
+            <a href="#">Enviar presente</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/atualizacao.js"></script>
+  </body>
+</html>

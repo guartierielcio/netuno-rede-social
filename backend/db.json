@@ -15,7 +15,8 @@
       "uf": "SP",
       "numero": "483",
       "complemento": "apto 201",
-      "id": 1
+      "id": "1",
+      "estado": "SP"
     },
     {
       "nome": "Cladette de A. Guartieri",
@@ -32,7 +33,7 @@
       "uf": "SP",
       "numero": "483",
       "complemento": "apto 201",
-      "id": 2
+      "id": "2"
     },
     {
       "nome": "Simone Naressi",
@@ -49,7 +50,23 @@
       "uf": "SP",
       "numero": "8",
       "complemento": "Casa",
-      "id": 3
+      "id": "3"
+    },
+    {
+      "nome": "Marty McFly",
+      "email": "martymcfly@futuro.com",
+      "senha": "123456",
+      "sexo": "Masculino",
+      "dtnascimento": "1962-10-20",
+      "cpf": "",
+      "cep": "01304-001",
+      "rua": "Rua Augusta",
+      "bairro": "Consolação",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "numero": "",
+      "complemento": "casa",
+      "id": "4"
     }
   ],
   "publicacoes": [
@@ -61,7 +78,7 @@
       "url": "https://www.alura.com.br/artigos/javascript?srsltid=AfmBOopXXrD7SKrNw-Zjjgpq8lPwOcbmcXzpXIwtCSOUiG9CaFpvwamV",
       "texto": "Ótimo artigo sobre JavaScript que a Alura publicou",
       "curtidas": true,
-      "id": 1
+      "id": "1"
     },
     {
       "nome": "Elcio Guartieri",
@@ -71,7 +88,7 @@
       "url": "https://www.semcodar.com.br/bubble-x-flutterflow-x-weweb-semcodar-melhor-no-code-em-2024/",
       "texto": "Hoje estou iniciando meu curso de Booble na comunidade Sem Codar, está sendo Show de bola!!",
       "curtidas": true,
-      "id": 2
+      "id": "2"
     }
   ],
   "amigos": [
@@ -79,42 +96,42 @@
       "nome": "Cladette de A. Guartieri",
       "email": "bibidede2@hotmail.com",
       "foto": "https://e7.pngegg.com/pngimages/693/530/png-clipart-cartoon-female-cartoon-professional-women-cartoon-character-comics.png",
-      "id": 1
+      "id": "1"
     },
     {
       "nome": "Simone Naressi",
       "email": "catsimonen@hotmail.com",
       "foto": "https://i.pinimg.com/474x/b8/9c/41/b89c41fb4525596e8f48810096796ff0.jpg",
-      "id": 2
+      "id": "2"
     },
     {
       "nome": "Milene P. Guartieri",
       "email": "milenepilar@homail.com",
       "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpcegX6zBtHhyO6j2369uGwNE8tFZuy4eM8g&s",
-      "id": 3
+      "id": "3"
     },
     {
       "nome": "Enzo Mussini",
       "email": "enzomussini@gmail.com",
       "foto": "https://cdn.vectorstock.com/i/500p/06/15/face-of-a-bald-man-with-glasses-beard-vector-16870615.jpg",
-      "id": 4
+      "id": "4"
     },
     {
       "nome": "Leonardo Guartieri de Olveira",
       "email": "leoguartieri@hotmail.com",
       "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_cfhcX2fIWoC0I0B7LzXBc3SDtU3p-Z4Qig&s",
-      "id": 5
+      "id": "5"
     },
     {
       "nome": "Sany Siqueira",
       "email": "sanysiqueira@hotmail.com",
       "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySVaz5R8qjar8HkeuYIgqwrLVGMcYaq5Hw&s",
-      "id": 6
+      "id": "6"
     }
   ],
   "produtos": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "iPhone 16",
       "descricao": "",
       "valor": 2200,
@@ -122,15 +139,15 @@
       "foto": "https://macmagazine.com.br/wp-content/uploads/2024/09/Apple-iPhone-16-Pro-finish-lineup-240909-1260x840.jpg"
     },
     {
-      "id": 2,
-      "nome": "iPhone 7 Pro Max",
+      "id": "2",
+      "nome": "iPhone 17 Pro Max",
       "descricao": "",
       "valor": 2800,
       "status": true,
       "foto": "https://images7.kabum.com.br/produtos/fotos/925357/iphone-17-pro-max-apple-256gb-48mp-tela-6-9-super-retina-xdr-azul-intenso_1757698084_gg.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "iPad",
       "descricao": "",
       "valor": 1720,
@@ -138,7 +155,7 @@
       "foto": "https://upload.wikimedia.org/wikipedia/commons/4/4a/IPad_mockup.png"
     },
     {
-      "id": 4,
+      "id": "4",
       "nome": "Apple Watch",
       "descricao": "",
       "valor": 2100,
@@ -146,7 +163,7 @@
       "foto": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Apple_Watch_mockup.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "nome": "AirPods",
       "descricao": "",
       "valor": 1150,
@@ -154,7 +171,7 @@
       "foto": "https://upload.wikimedia.org/wikipedia/commons/8/82/AirPods_mockup.png"
     },
     {
-      "id": 6,
+      "id": "6",
       "nome": "MacBook 14\"",
       "descricao": "",
       "valor": 3500,
@@ -162,7 +179,7 @@
       "foto": "https://upload.wikimedia.org/wikipedia/commons/c/c7/MacBook_14inch_mockup.png"
     },
     {
-      "id": 7,
+      "id": "7",
       "nome": "MacBook",
       "descricao": "",
       "valor": 4000,
